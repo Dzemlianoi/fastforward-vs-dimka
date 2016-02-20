@@ -1,22 +1,22 @@
-<!doctype html><!--Доктайп желательно всегда писать большими буквами, иногда интерпретатор не выкупает-->
-<html lang="en"> <!--Язык у тебя ru, а не en-->
-<head>
+<!DOCTYPE html><!--Доктайп желательно всегда писать большими буквами, иногда интерпретатор не выкупает-->
+<html lang="ru"> <!--Язык у тебя ru, а не en-->
+    <head>
     <!--Хэд сдивгается на 1 таб, т.к является дочерним и состоит внутри тэга html, все содержимое соответственно тоже-->
-    <meta charset="UTF-8">
-    <title>First step</title>
-</head>
-<body> <!-- h1 сдвигается на 1 таб т.к является дочерним для боди-->
-<h1 align="center">Chemistry</h1>
-    <h2 align="right"><a name="top" href="#bot">Спуститься вниз</a></h2><!--h2 на уровне с h1, почему они на разных? Они же одного уровня-->
+        <meta charset="UTF-8">
+        <title>First step</title>
+    </head>
+    <body> <!-- h1 сдвигается на 1 таб т.к является дочерним для боди-->
+        <h1 align="center">Chemistry</h1>
+        <h2 align="right"><a name="top" href="#bot">Спуститься вниз</a></h2><!--h2 на уровне с h1, почему они на разных? Они же одного уровня-->
         <ol type="I">
-        <br><!--не забывай про самозакрывающийся слэш-->
-            <li>Информация о науке</li><br>
+        <br/><!--не забывай про самозакрывающийся слэш-->
+            <li>Информация о науке</li><br/>
 
             <!-- Фонт не является обороткой для текста, если ты увидел на картинке - там повышенный межстрочный интервал + особое выравнивание, <br/> тут ни к чему-->
-            <font color="#008b8b" size="5">Одна из основных наук естествознания, изучающая внутренний состав,
-            внутреннее строение материи, закономерности <br> качественных изменений, разложения и превращения веществ,
-            а также закономерности образования новых веществ в <br> результате качественных изменений<br></font>
-           <br>
+            <p><font color="#008b8b" size="5">Одна из основных наук естествознания, изучающая внутренний состав,
+            внутреннее строение материи, закономерности качественных изменений, разложения и превращения веществ,
+            а также закономерности образования новых веществ в результате качественных изменений</font></p>
+           <br/>
             <li> Основные направления в химии
             <ul type="square" >
                 <li>Агрохимия</li>
@@ -41,6 +41,130 @@
                 <li>Общая химия</li>
                 <li>Препаративная химия</li>
             </ul>
+            <br/><li>Таблица Менделеева</li>
+                    <table border="1px" align="center" cellpadding="10px">
+                        <caption>Таблица Менделеева</caption>
+                        <tr>
+                            <td colspan="2"></td>
+                            <td colspan="10" align="center">Группы химических элементов</td>
+
+                        </tr>
+                        <tr>
+                            <td>Периоды</td>
+                            <td>Ряды</td>
+                            <td align="center">&#8544;</td>
+                            <td align="center">&#8545;</td>
+                            <td align="center">&#8546;</td>
+                            <td align="center">&#8547;</td>
+                            <td align="center">&#8548;</td>
+                            <td align="center">&#8549;</td>
+                            <td align="center">&#8550;</td>
+                            <td align="center" colspan="3">&#8551;</td>
+                        </tr>
+                        <tr>
+                            <td align="center">&#8544;</td>
+                            <td align="center">1</td>
+                            <td bgcolor="#ff1493">
+                                <p align="right">1</p>
+                                <p align="left"><strong>H</strong><br/>1,00795</p>
+                                <p align="center">Водород</p>
+                            </td>
+                            <td colspan="6"></td>
+                            <td bgcolor="#ff1493" colspan="3">
+                                <p align="right">2</p>
+                                <p align="left"><strong>He</strong><br/>4,002602</p>
+                                <p align="center">Гелий</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">&#8545;</td>
+                            <td align="center">2</td>
+                            <td bgcolor="#ff1493">
+                                <p align="right">3</p>
+                                <p align="left"><strong>Li</strong><br/>6,9412</p>
+                                <p align="center">Литий</p>
+                            </td>
+                            <td bgcolor="#ff1493">
+                                <p align="right">4</p>
+                                <p align="left"><strong>Be</strong><br/>9,01218</p>
+                                <p align="center">Бериллий</p>
+                            </td>
+                            <td bgcolor="#fff98e">
+                                <p align="right">5</p>
+                                <p align="left"><strong>B</strong><br/>10,812</p>
+                                <p align="center">Бор</p>
+                            </td>
+                            <td bgcolor="#fff98e">
+                                <p align="right">6</p>
+                                <p align="left"><strong>C</strong><br/>12,0108</p>
+                                <p align="center">Углерод</p>
+                            </td>
+                            <td bgcolor="#fff98e">
+                                <p align="right">7</p>
+                                <p align="left"><strong>N</strong><br/>14,0067</p>
+                                <p align="center">Азот</p>
+                            </td>
+                            <td bgcolor="#fff98e">
+                                <p align="right">8</p>
+                                <p align="left"><strong>O</strong><br/>15,9994</p>
+                                <p align="center">Кислород</p>
+                            </td>
+                            <td bgcolor="#fff98e">
+                                <p align="right">9</p>
+                                <p align="left"><strong>F</strong><br/>18,99840</p>
+                                <p align="center">Фтор</p>
+                            </td>
+                            <td bgcolor="#fff98e" colspan="3">
+                                <p align="right">10</p>
+                                <p align="left"><strong>Ne</strong><br/>20,179</p>
+                                <p align="center">Неон</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">&#8546;</td>
+                            <td align="center">3</td>
+                            <td bgcolor="#ff1493">
+                                <p align="right">11</p>
+                                <p align="left"><strong>Na</strong><br/>22,98977</p>
+                                <p align="center">Натрий</p>
+                            </td>
+                            <td bgcolor="#ff1493">
+                                <p align="right">12</p>
+                                <p align="left"><strong>Mg</strong><br/>24,305</p>
+                                <p align="center">Магний</p>
+                            </td>
+                            <td bgcolor="#fff98e">
+                                <p align="right">13</p>
+                                <p align="left"><strong>Al</strong><br/>26,98154</p>
+                                <p align="center">Алюминий</p>
+                            </td>
+                            <td bgcolor="#fff98e">
+                                <p align="right">14</p>
+                                <p align="left"><strong>Si</strong><br/>28,086</p>
+                                <p align="center">Кремний</p>
+                            </td>
+                            <td bgcolor="#fff98e">
+                                <p align="right">15</p>
+                                <p align="left"><strong>P</strong><br/>30,97376</p>
+                                <p align="center">Фосфор</p>
+                            </td>
+                            <td bgcolor="#fff98e">
+                                <p align="right">16</p>
+                                <p align="left"><strong>S</strong><br/>32,06</p>
+                                <p align="center">Сера</p>
+                            </td>
+                            <td bgcolor="#fff98e">
+                                <p align="right">17</p>
+                                <p align="left"><strong>Cl</strong><br/>35,453</p>
+                                <p align="center">Хлор</p>
+                            </td>
+                            <td bgcolor="#fff98e" colspan="3">
+                                <p align="right">18</p>
+                                <p align="left"><strong>Ar</strong><br/>39,948</p>
+                                <p align="center">Аргон</p>
+                            </td>
+                        </tr>
+                    </table>
         </ol>
 
 
