@@ -168,23 +168,34 @@
                 </table>
             <br/>
             <li>Связь</li>
-                <p align="center">Связаться с нами</p>
-                    Login<sup style="color:red">*</sup>
-                    <input type="text"  placeholder="Логин" name="Login" required="" cellpadding="200" />
-                        <br/>
-                    Password<sup style="color:red">*</sup>
-                    <input type="password" placeholder="pass" name="Password" required=""/>
-                        <br/>
-                    E-mail<sup style="color:red">*</sup>
-                    <input type="email" name="e-mail" required=""/>
-                        <br/>
-                    Telephone
-                    <input type="tel"  placeholder="+3806312312312" name="phonenumber" required="" cellpadding="200" />
-                        <br/>
+                <table align="center">
+                    <p align="center">Связаться с нами</p>
+                    <tr>
+                        <td>Login<sup style="color:red">*</sup></td>
+                        <td><input type="text" placeholder="Логин" name="Login" required="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Password<sup style="color:red">*</sup></td>
+                        <td><input type="password" placeholder="pass" name="Password" required=""/>   </td>
+                    </tr>
+                    <td>
+                        <tr>E-mail<sup style="color:red">*</sup></tr>
+                        <tr><input type="email" name="e-mail" required=""/> </tr>
+                    </td>
+                    <td>
+                        <tr>Telephone</tr>
+                        <tr><input type="tel"  placeholder="+3806312312312" name="phonenumber" required=""/></tr>
+                    </td>
+                    <tr>
+                        <p>
+                            <tr>
+                                <input type="radio" name="sex" value="sex1"/> Человек<Br>
+                                <input type="radio" name="sex" value="sex2"/> Женщина<Br>
+                            </tr>
+                        </p>
+                    </tr>
                     Gender
-                    <p>
-                        <input type="radio" name="sex" value="sex1"/> Человек<Br>
-                        <input type="radio" name="sex" value="sex2"/> Женщина<Br></p>
+
                         <br/>
                     Quantity of children
                     <input type="number"/>
@@ -204,6 +215,7 @@
                     <input type="reset" value="Sbrosit`"/>
                         <br/>
                     <input type="submit" value="Otpravit`"/>
+                </table>
         </ol>
 
 
