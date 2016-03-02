@@ -15,17 +15,17 @@
         <td bgcolor="orange" align="center" width="304px" height="200px">
             <table>
                 <caption><strong>Sign in</strong></caption>
-                <form action="" method="get">
+                <form action="home.html" method="get">
                     <tr>
                         <td>
-                            <label for="sign_form_1">Login:</label>
+                            <label for="login">Login:</label>
                             <br/>
-                            <input type="text" name="login" id="sign_form_1" placeholder="Your login"/>
+                            <input type="text" name="login" id="login" placeholder="Your login"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="sign_form_2">Password:</label>
+                            <label for="password">Password:</label>
                             <br/>
                             <input type="password" id="sign_form_2" name="pass" placeholder="Your password"/>
                         </td>
@@ -35,15 +35,15 @@
                             <input type="submit" value="Sign in"/>
                         </td>
                     </tr>
+                </form>
                     <tr></tr>
                     <tr>
+                        <form action="reg.html" method="get">
                         <td align="center">
-                            <a href="reg.html">
                                 <input type="button" align="center" value="Sign up" disabled/>
-                            </a>
                         </td>
                     </tr>
-                </form>
+                        </form>
                 <!--End of authorization forms-->
             </table>
         </td>
@@ -80,104 +80,112 @@
         <!--Start of registration-->
         <td width="500px">
             <table align="center" cellpadding="10px">
-                <form method="get">
+                <form method="post" action="home.html" enctype="multipart/form-data">
                     <tr>
                         <td>
-                            <label for="s_up_form_1">Login:</label>
+                            <label for="login">Login:<sup style="color:red">*</sup></label>
                         </td>
                         <td>
-                            <input type="text" placeholder="Your login" name="login" required autofocus id="s_up_form_1"/>
+                            <input type="text" placeholder="Your login" name="login" required autofocus id="login"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="s_up_form_2">Password:</label>
+                            <label for="password">Password:<sup style="color:red">*</sup></label>
                         </td>
                         <td>
-                            <input type="password" placeholder="Your password" id="s_up_form_2" name="pass" required/>
+                            <input type="password" placeholder="Your password" id="password" name="pass" required/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="s_up_form_3">E-mail:</label>
+                            <label for="repeat_password">Repeat password:<sup style="color:red">*</sup></label>
                         </td>
                         <td>
-                            <input type="email" placeholder="Your e-mail" id="s_up_form_3" name="e-m" required/>
+                            <input type="password" placeholder="Repeat your password" id="repeat_password" name="pass" required/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="s_up_form_4">Phone number:</label>
+                            <label for="email">E-mail:<sup style="color:red">*</sup></label>
                         </td>
                         <td>
-                            <input type="tel" placeholder="380677233614" id="s_up_form_4" name="ph_numb" required/>
+                            <input type="email" placeholder="Your e-mail" id="email" name="e-m" required/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="s_up_form_5">Date of registration:</label>
+                            <label for="phone_number">Phone number:<sup style="color:red">*</sup></label>
                         </td>
                         <td>
-                            <input type="date" name="date_of" id="s_up_form_5"/>
+                            <input type="tel" placeholder="380677233614" id="phone_number" name="ph_numb" required/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="s_up_form_6">Profile photo</label>
+                            <label for="date">Date of registration:</label>
                         </td>
                         <td>
-                            <input type="file" name="photo" id="s_up_form_6"/>
+                            <input type="date" name="date_of" id="date"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="s_up_form_7">Sex:</label>
+                            <label for="photo">Profile photo</label>
                         </td>
                         <td>
-                            <p><input type="radio" name="sex" value="Male" id="s_up_form_7"/>Male</p>
-                            <p><input type="radio" name="sex" value="Female" id="s_up_form_7"/>Female</p>
+                            <input type="file" name="photo" id="photo"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="s_up_form_8">Favorite colour:</label>
+                            <label for="sex">Sex:</label>
                         </td>
                         <td>
-                            <input type="color" name="color" id="s_up_form_8"/>
+                            <p><input type="radio" name="sex" value="Male" id="sex"/>Male</p>
+                            <p><input type="radio" name="sex" value="Female" id="sex"/>Female</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="s_up_form_9">How often do you<br/> use our service:</label>
+                            <label for="colour">Favorite colour:</label>
                         </td>
                         <td>
-                            <input type="number" name="quantity" id="s_up_form_9"/>
+                            <input type="color" name="color" id="colour"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="s_up_form_10">Pernicious habits:</label>
+                            <label for="quantity">How often do you<br/> use our service:</label>
                         </td>
                         <td>
-                            <p><input type="checkbox" name="check_habits" value="check_1" id="s_up_form_10"/>Smoking</p>
-                            <p><input type="checkbox" name="check_habits" value="check_2" id="s_up_form_10"/>Drinking</p>
-                            <p><input type="checkbox" name="check_habits" value="check_3" id="s_up_form_10"/>Drugs</p>
-                            <p><input type="checkbox" name="check_habits" value="check_4" id="s_up_form_10"/>Studing in DNU</p>
+                            <input type="number" name="quantity" id="quantity"/>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="s_up_form11">Commentary:</label>
+                            <label for="habits">Pernicious habits:</label>
                         </td>
                         <td>
-                            <textarea id="s_up_form11" name="comment" placeholder="Your commentary" rows="7" cols="25" maxlength="299"></textarea>
+                            <p><input type="checkbox" name="check_habits" value="check_1" id="habits"/>Smoking</p>
+                            <p><input type="checkbox" name="check_habits" value="check_2" id="habits"/>Drinking</p>
+                            <p><input type="checkbox" name="check_habits" value="check_3" id="habits"/>Drugs</p>
+                            <p><input type="checkbox" name="check_habits" value="check_4" id="habits"/>Studing in DNU</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="s_up_form12">Choose your<br/> favorite meat:</label>
+                            <label for="comment">Commentary:</label>
                         </td>
-                        <td><p><select size="4" id="s_up_form12">
+                        <td>
+                            <textarea id="comment" name="comment" placeholder="Your commentary" rows="7" cols="25" maxlength="299"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="meat">Choose your<br/> favorite meat:</label>
+                        </td>
+                        <td><p><select size="4" id="meat">
                             <option disabled>Choose meat</option>
                             <option value="chicken">Chicken</option>
                             <option value="cow">Cow</option>
