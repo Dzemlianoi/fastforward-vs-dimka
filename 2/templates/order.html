@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Meatparty</title>
+</head>
+<body>
+<table align="center">
+    <!--Main company image-->
+    <tr>
+        <td colspan="3" bgcolor="orange" width="800px" height="200px" align="center">
+            <img src="../images/meat_main.png" height="250px" width="200px" alt=""/>
+        </td>
+        <!--Start authorization forms-->
+        <td bgcolor="orange" align="center" width="304px" height="200px">
+            <table>
+                <caption><strong>Sign in</strong></caption>
+                <form action="" method="get">
+                    <tr>
+                        <td>
+                            <label for="login">Login:</label>
+                            <br/>
+                            <input type="text" name="login" id="login" placeholder="Your login"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password:</label>
+                            <br/>
+                            <input type="password" id="password" name="pass" placeholder="Your password"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <input type="submit" value="Sign in"/>
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td align="center">
+                            <a href="reg.html">
+                                <input type="button" align="center" value="Sign up"/>
+                            </a>
+                        </td>
+                    </tr>
+                </form>
+                <!--End of authorization forms-->
+            </table>
+        </td>
+    </tr>
+</table>
+<table align="center" cellspacing="20px" bgcolor="orange">
+    <!--Start menu-->
+    <tr>
+        <td width="200px">
+            <table cellpadding="5px" bgcolor="orange">
+                <tr>
+                    <td width="300px">
+                        <p align="center"><strong>Menu</strong></p>
+                        <ul>
+                            <a href="../index.html"><li>Home</li></a>
+                            <br/>
+                            <a href="about.html"><li>About</li></a>
+                            <br/>
+                            <a href="gallery.html"><li>Gallery</li></a>
+                            <br/>
+                            <a href="contacts.html"><li>Contacts</li></a>
+                            <br/>
+                            <a href="order.html"><li>Order</li></a>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="400px"></td>
+                </tr>
+            </table>
+
+        </td>
+        <!--End of menu-->
+        <!--Start of gallery-->
+        <td width="500px">
+            <table cellpadding="15px">
+                <tr>
+                    <td colspan="2">
+                        <h1 align="center">Оформить заказ</h1>
+                    </td>
+                </tr>
+                <form action="home.html" method="get">
+                <tr>
+                    <td>
+                        <label for="choose_meat">Выберите животное:</label>
+                    </td>
+                    <td>
+                        <p>
+                            <input type="radio" name="meat" value="meat1" id="choose_meat"/>Курица
+                            <br/>
+                            <input type="radio" name="meat" value="meat2" id="choose_meat"/>Баранина
+                            <br/>
+                            <input type="radio" name="meat" value="meat3" id="choose_meat"/>Свинина
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="part">Выберите часть живвотного:</label>
+                    </td>
+                    <td>
+                        <p>
+                            <input type="radio" name="part" value="part1" id="part"/>Нога
+                            <br/>
+                            <input type="radio" name="part" value="part1" id="part"/>Филе
+                            <br/>
+                            <input type="radio" name="part" value="part1" id="part"/>Грудинка
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="kg">Укажите количество килограм</label>
+                    </td>
+                    <td>
+                        <input type="number" id="kg" name="kilogram"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="delivery">Укажите тип доставки</label>
+                    </td>
+                    <td>
+                        <p>
+                            <input type="radio" name="delivery" id="delivery" value="delivery_1" checked/>Нашей компанией
+                            <br/>
+                            <input type="radio" name="delivery" id="delivery" value="delivery2"/>Самовывоз
+                            <br/>
+                            <input type="radio" name="delivery" id="delivery" value="delivery3"/>New Post
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="commentary">Комментарий к заказу:</label>
+                    </td>
+                    <td>
+                        <textarea cols="25" rows="7" id="commentary"></textarea>
+                    </td>
+                </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="Отправить"/>
+                            <br/>
+                            <br/>
+                            <input type="reset" value="Сбросить"/>
+                        </td>
+                    </tr>
+                </form>
+                <tr>
+                    <td colspan="2" align="center">
+                        <form action="order.html" method="post">
+                            <input type="button" value="Заказать еще"/>
+                        </form>
+                    </td>
+                </tr>
+
+            </table>
+        </td>
+        <!--End of gallery-->
+        <!--Advertising-->
+        <td>
+            <a href="http://rozetka.ua" target="_blank">
+                <img src="../images/rozetka.jpeg" width="300px" height="300px" alt="advertising_1" />
+            </a>
+            <br/>
+            <a href="http://windows.microsoft.com/uk-ua/internet-explorer/download-ie" target="_blank">
+                <img src="../images/ishak.png" width="300px" height="300px" alt="advertising_2"/>
+            </a>
+        </td>
+    </tr>
+    <!--End of Advertising-->
+    <!--Partners-->
+    <tr>
+        <td bgcolor="orange" width="" height="250px" colspan="4">
+            <h1 align="center"><strong>Partners:</strong></h1>
+            <a href="https://www.microsoft.com/uk-ua/" target="_blank">
+                <img src="../images/microsoft.png" alt="partner_1" width="200px" height="100px" hspace="35px"/>
+            </a>
+            <a href="http://google.com" target="_blank">
+                <img src="../images/google.png" alt="partner_2" width="200" height="100px" hspace="35px"/>
+            </a>
+            <a href="https://ru.wikipedia.org/" target="_blank">
+                <img src="../images/wiki.png" alt="partner_3" width="170px" height="100px" hspace="35px"/>
+            </a>
+            <a href="https://www.linux.org.ru/" target="_blank">
+                <img src="../images/Linux.png" alt="partner_4" width="200px" height="100px" hspace="35px"/>
+            </a>
+            <p align="center">Bavykin&#169;</p>
+    </tr>
+    <!--End of Partners-->
+</table>
+</body>
+</html>
