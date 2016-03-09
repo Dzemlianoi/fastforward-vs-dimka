@@ -1,0 +1,184 @@
+body{
+    background: url(images/bg2.png);
+    background-repeat: repeat;
+    min-width: 1200px;
+}
+.header{
+    margin:5px auto;
+    padding-left: 520px;
+}
+.menu{
+    width: 72%;
+    height: 59px;
+    display: inline-block;
+    padding-left: 375px;
+    background-color: saddlebrown;
+    max-width: 1300px;
+}
+.button_menu_1 {
+    width: 10%;
+    height: 100%;
+    border: 0px solid orange;
+    font-weight: bold;
+    font-family: cursive;
+    color: black;
+    background-color: saddlebrown;
+    letter-spacing: 1px;
+    padding: 20px;
+    display: inline-block;
+    float: left;
+    max-width: 96px;
+    max-height: 59px;
+}
+.button_menu_1:hover{
+    width: 10%;
+    height: 100%;
+    border: 0px solid orange;
+    font-weight: bold;
+    font-family: cursive;
+    color: black;
+    background-color: darkgrey;
+    letter-spacing: 1px;
+    padding: 20px;
+    display: inline-block;
+    float: left;
+    max-width: 96px;
+    max-height: 59px;
+}
+.button_menu_2{
+    width: 16%;
+    height: 100%;
+    border: 0px solid orange;
+    font-weight: bold;
+    font-family: cursive;
+    color: black;
+    background-color: saddlebrown;
+    padding: 20px;
+    display: inline-block;
+    float: left;
+    max-width: 154px;
+    max-height: 59px;
+}
+.button_menu_2:hover{
+    width: 16%;
+    height: 100%;
+    border: 0px solid orange;
+    font-weight: bold;
+    font-family: cursive;
+    color: black;
+    background-color: darkgrey;
+    padding: 20px;
+    display: inline-block;
+    float: left;
+    max-width: 154px;
+    max-height: 59px;
+}
+.ancher_up{
+    width: 10%;
+    height: 100%;
+    border: 0px solid orange;
+    font-weight: 900;
+    font-family: cursive;
+    color: black;
+    background-color: saddlebrown;
+    letter-spacing: 1px;
+    padding: 20px;
+    display: inline-block;
+    float: left;
+    max-width: 96px;
+    max-height: 59px;
+    margin-left: 220px;
+    font-size: 17px;
+}
+.ancher_up:hover{
+    width: 10%;
+    height: 100%;
+    border: 0px solid orange;
+    font-weight: 900;
+    font-family: cursive;
+    color: black;
+    background-color: darkgrey;
+    letter-spacing: 1px;
+    padding: 20px;
+    display: inline-block;
+    float: left;
+    max-width: 96px;
+    max-height: 59px;
+    margin-left: 220px;
+    font-size: 17px;
+}
+
+.header h1{
+    color: black;
+}
+.first_textarea{
+    font-weight: 500;
+    padding: 0 300px;
+    font-family: "Times New Roman";
+    font-size: 19px;
+    max-width: 1300px;
+}
+.fat_p{
+    font-weight: bold;
+    padding: 0 300px;
+    font-size: 20px;
+}
+div a{
+    color: #607D8B;
+    font-weight: 600 ;
+}
+div a:hover{
+    color: #607D8B;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px black;
+}
+.alert{
+    font-weight: 900;
+    font-size: 26px;
+    padding: 1px 396px;
+    color: red;
+}
+.vodogrejniy_parovoi_kotel{
+    background-image: url(images/Vodog_par_kot1.jpg);
+    width: 223px;
+    height: 300px;
+    margin-left: 380px;
+    background-repeat: no-repeat;
+    border: 4px solid white;
+}
+.vodogrejniy_parovoi_kotel:hover{
+    border: 4px solid black;
+}
+.parogen1{
+    background-image: url("images/parogen1.jpg");
+    width: 223px;
+    height: 300px;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+    border: 4px solid white;
+}
+.parogen1:hover{
+    border: 4px solid black;
+}
+.image div a p{
+    margin-left: 480px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.image{
+    display: inline-flex;
+}
+.image_comment{
+    display:inline-flex ;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left: 401px;
+    padding: 0 20px;
+}
+.image_comment2{
+    display:inline-flex ;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-left: 146px;
+    padding: 0 20px;
+}

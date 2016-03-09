@@ -1,0 +1,20 @@
+.header{
+    background-color: darkorange;
+    width:100%;
+}
+.list_head_tel{
+    margin:10px 200px 10px 0;
+    display: inline-block;
+
+}
+.tel_fat{
+    font-weight: bold;
+}
+.bg-header{
+    background-image: url("http://www.design-warez.ru/uploads/posts/2009-09/1252268066_cb85312dccd6.jpg");
+    height: 200px;
+    width: 800px;
+    margin: 5px 0 5px 200px;
+    display: inline-block;
+
+}
