@@ -1,0 +1,128 @@
+.inl{
+    display: inline;
+}
+.header{
+    width: 100%;
+    line-height: 50px;
+    background-color: #f56a9e;
+    border-radius: 10px ;
+}
+.white-space{
+    margin-left: 700px;
+}
+.sign-in{
+    color: white;
+    font-family: cursive;
+    padding: 13px;
+}
+.sign-up{
+    color: white;
+    font-family: cursive;
+    padding: 13px;
+    margin-right:20px;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.contacts{
+    padding: 20px 300px;
+    height: 100px;
+    margin: -110px 145px;
+    width: 600px;
+}
+ .logo{
+    background-image: url("./images/logo.png");
+    width: 224px;
+    height: 80px;
+    display: inline-block;
+     margin: 10px 200px;
+}
+.phonenumber{
+    color: #f56a9e;
+    font-family: fantasy;
+    font-weight: 200;
+    padding:0 10px 10px;
+    margin: auto;
+}
+.phonenumber img{
+    padding: 1px 1px;
+}
+.reverse-call-label{
+    margin-left: 25px;
+}
+.reverse-call{
+    background-image: url("images/reverse-call.png");
+    background-repeat: no-repeat;
+    margin: 10px 15px;
+    width: 206px;
+    height: 24px;
+    padding: 2px;
+    display: inline-block;
+}
+.reverse-call form input{
+    border: none;
+    width: 175px;
+    height: 18px;
+}
+.reverse-call img{
+    margin: -3px 2px;
+}
+.contacts-time{
+    margin: 0 850px;
+    width: 100px;
+    white-space: pre-wrap;
+}
+.contacts-time div{
+    color: #f56a9e;
+    margin: 0 850px;
+    width: 200px;
+}
+.menu{
+    background-image: url("images/menu-bg.png");
+    width: 1200px;
+    height: 78px;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+}
+.menu-content{
+    margin: 0 auto;
+    width: 700px;
+}
+.menu .menu-content div{
+    padding: 0 20px;
+}.menu .menu-content a{
+     color: #f56a9e;
+    text-decoration: none;
+ }
+.banner{
+    background-image: url("images/banner1.png");
+    width: 600px;
+    height: 276px;
+    margin: -50px auto;
+}
+.banner div{
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 55px 340px;
+    white-space: nowrap;
+}
+.banner div:first-line{
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 55px 340px;
+}
+.left{
+    background-image: url("images/left.png");
+    width: 20px;
+    height: 40px;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+}
+.right{
+    background-image: url("images/right.png");
+    width: 24px;
+    height: 40px;
+    background-repeat: no-repeat;
+    margin: 0 0 0 545px;
+}

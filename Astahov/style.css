@@ -32,7 +32,7 @@ div.wrapper{
     text-align: center;
     margin:0 auto;
     height: 59px;
-    background-color: saddlebrown;
+    background-color: #666666;
     /*border-radius:10px 10px;*/
     max-width: 1300px;
 }
@@ -146,10 +146,10 @@ div.main-product a:hover, div.image-main a:hover
     padding: 20px;
 }
 .menu-box{
-    width: 180px;
+    width: 170px;
     text-align: center;
     line-height: 25px;
-    background-color: saddlebrown;
+    background-color: #666666;
 }
 .menu-box:hover{
     background-color: darkgray;
