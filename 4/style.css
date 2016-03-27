@@ -1,6 +1,10 @@
 .inl{
     display: inline;
 }
+.inl-b{
+    display: inline-block;
+}
+/*Header------------------------------*/
 .header{
     width: 100%;
     line-height: 50px;
@@ -25,11 +29,15 @@
     color: white;
     text-decoration: none;
 }
+/*End of header------------------------*/
+
+/*Contacts---------------------*/
 .contacts{
-    padding: 20px 300px;
+    padding: 20px 0;
     height: 100px;
-    margin: -110px 145px;
+    margin: -110px 250px;
     width: 600px;
+    float: right;
 }
  .logo{
     background-image: url("./images/logo.png");
@@ -49,7 +57,10 @@
     padding: 1px 1px;
 }
 .reverse-call-label{
-    margin-left: 25px;
+    position: relative;
+    bottom: 21px;
+    left: 11px;
+    color: gray;
 }
 .reverse-call{
     background-image: url("images/reverse-call.png");
@@ -66,24 +77,35 @@
     height: 18px;
 }
 .reverse-call img{
-    margin: -3px 2px;
+    position: relative;
+    bottom: 17px;
+    left: 181px;
 }
 .contacts-time{
-    margin: 0 850px;
     width: 100px;
     white-space: pre-wrap;
+    position: relative;
+    top: -65px;
+    left: 250px;
+    color: gray;
 }
 .contacts-time div{
     color: #f56a9e;
-    margin: 0 850px;
     width: 200px;
+    position: relative;
+    left: 575px;
+    top:15px;
 }
+/*End of contacts--------------*/
+
+/*Menu------------------*/
 .menu{
     background-image: url("images/menu-bg.png");
-    width: 1200px;
+    width: 1330px;
     height: 78px;
     background-repeat: no-repeat;
-    padding: 30px 0;
+    position: relative;
+    bottom: 50px;
 }
 .menu-content{
     margin: 0 auto;
@@ -91,38 +113,221 @@
 }
 .menu .menu-content div{
     padding: 0 20px;
+    position: relative;
+    top:25px;
 }.menu .menu-content a{
      color: #f56a9e;
     text-decoration: none;
  }
+ /*End of menu-----------*/
+
+/*Banner----------*/
 .banner{
-    background-image: url("images/banner1.png");
-    width: 600px;
-    height: 276px;
+    background-image: url("images/banner.png");
+    background-size: 800px 370px;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 370px;
     margin: -50px auto;
 }
-.banner div{
+.banner .banner-text{
     color: whitesmoke;
     font-size: 16px;
-    padding: 55px 340px;
-    white-space: nowrap;
+    position: relative;
+    left: 450px;
+    top: 50px;
 }
-.banner div:first-line{
+.banner .banner-text:first-line{
     color: whitesmoke;
     font-size: 20px;
-    padding: 55px 340px;
 }
 .left{
     background-image: url("images/left.png");
-    width: 20px;
-    height: 40px;
+    width: 24px;
+    height: 49px;
     background-repeat: no-repeat;
     margin: 0 30px;
+    display: inline-block;
+    position: relative;
+    top: 130px;
+    right: 50px;
 }
 .right{
     background-image: url("images/right.png");
     width: 24px;
-    height: 40px;
+    height: 49px;
     background-repeat: no-repeat;
-    margin: 0 0 0 545px;
+    position: relative;
+    left: 500px;
+    top: 130px;
+    display: inline-block;
+}
+/*End of banner------------*/
+
+/*Best offer-------------*/
+.best-offers{
+    margin: 50px auto;
+    width: 800px;
+    height: auto;
+}
+.content-header{
+    width: 800px;
+    margin: 60px auto;
+    line-height: 30px;
+    background-color: #f56a9e ;
+    border-radius: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 16px;
+}
+.row-products{
+    margin-left:35px;
+    color: gray;
+    width: auto;
+}
+.col-products{
+    width: 180px;
+    height: auto;
+    display: inline-block;
+}
+.product-1{
+    background-image: url("images/flow1.png");
+    background-size: 151px 137px;
+    height: 137px;
+    width: 151px;
+    display: inline-block;
+  }
+.product-2{
+    background-image: url("images/flow2.png");
+    background-size: 126px 130px;
+    height: 130px;
+    width: 126px;
+    display: inline-block;
+}
+.product-3{
+    background-image: url("images/flow3.png");
+    background-size: 130px 137px;
+    height: 137px;
+    width: 130px;
+    display: inline-block;
+}
+.product-4{
+    background-image: url("images/flow4.png");
+    background-size: 160px 130px;
+    height: 130px;
+    width: 160px;
+    display: inline-block;
+}
+.buy-box{
+    background-image: url("images/buy-box.png");
+    background-size: 35px 32px;
+    width: 35px;
+    height: 32px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 15px;
+    right: 35px;
+}
+/*End of best offers--------------*/
+
+/*News------------------*/
+.news{
+    margin: 0 auto;
+    width: 800px;
+    height: auto;
+}
+.news .content-header{
+    width: 800px;
+    margin: 20px auto;
+    line-height: 30px;
+    background-color: #f56a9e ;
+    border-radius: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 16px;
+}
+.up{
+    background-image: url("images/up.png");
+    width: 52px;
+    height: 35px;
+    margin: 1px auto;
+}
+.news-block-1, .news-block-2{
+    color: #f56a9e;
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 16px;
+}
+.news-block-1 .inl, .news-block-2 .inl{
+    vertical-align: top;
+}
+.news-block-1 .inl span{
+    position: relative;
+    right: 245px;
+    bottom: 85px;
+    color: gray;
+    font-weight: 100;
+}
+.news-block-2 .inl span{
+    position: relative;
+    right: 132px;
+    bottom: 89px;
+    color: gray;
+    font-weight: 100;
+}
+.news-block-2 .inl .inl{
+    color: black;
+    font-size: 12px;
+}
+.down{
+    background-image: url("images/down.png");
+    width: 58px;
+    height: 35px;
+    margin: 1px auto;
+}
+.vk{
+    float: right;
+}
+/*End of news-------------*/
+
+/*About us-------------------*/
+.about-us{
+    width: 800px;
+    margin: -40px auto;
+    text-align: center;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+/*End of about us-------*/
+
+/*Footer------*/
+.footer{
+    width: 100%;
+    background-color: #f56a9e;
+    height: 200px;
+    margin: 50px 0 0 0;
+}
+.footer-content{
+    width: 800px;
+    margin: 0 auto;
+}
+.footer .footer-content span{
+    color: whitesmoke;
+    float: right;
+    position: relative;
+    top:10px;
+}
+.links{
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+}
+.footer .footer-content .links .inl a{
+    color: whitesmoke;
+    margin: 0 15px;
+    text-decoration: none;
 }
