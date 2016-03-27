@@ -1,0 +1,31 @@
+.wrapper{
+    border:3px solid darkorange;
+    width:50%;
+    margin:0 auto;
+    padding:30px;
+    height:200px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: darkorange;
+    opacity:0.5;
+}
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+    border-radius:5px;
+}
+tr{
+    border:1px solid black;
+}
+td{
+     border:1px solid black;
+}
+th{
+    border:1px solid black;
+}
+div.circle{
+    width:40px;
+    height:40px;
+    border:3px solid darkorange;
+    border-radius: 500px;
+}

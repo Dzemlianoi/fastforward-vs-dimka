@@ -1,0 +1,38 @@
+input,textarea,a{
+    display:block;
+}
+.wrapper{
+    width:40%;
+    margin:200px auto;
+}
+textarea:first-letter{
+    margin-top:10px;
+    resize: vertical ;
+    position:relative;
+}
+.hated{
+    width:400px;
+    height:100px;
+    background-color: antiquewhite;
+    vertical-align: middle;
+    padding-top:30px;
+    box-sizing: border-box;
+}
+span{
+    display:block;
+    vertical-align: middle;
+    text-align: center;
+}
+input[type="submit"]:active{
+    width:500px;
+}
+a:link{
+    color:blue;
+}
+a:visited{
+    color:darkorange;
+    font-size: 15px;
+}
+input[type="checkbox"]:checked+label{
+    color:white;
+}
