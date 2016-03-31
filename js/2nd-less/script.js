@@ -133,7 +133,7 @@
 var a=+prompt("Put a number between 3-99");
 if(a>=3&&a<=99){
     var result_summ= 0,result_add=1;
-    for(var i=1;i<a;i++){
+    for(var i=1;i<=a;i++){
         if(a%i==0){
             if(i%2==0){
                 result_summ+=i;
