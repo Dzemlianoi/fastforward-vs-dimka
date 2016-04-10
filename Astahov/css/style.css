@@ -115,21 +115,13 @@ div.main-product a:hover, div.image-main a:hover
 .image-main img{
     border:4px solid whitesmoke;
     box-sizing: border-box;
+    margin: 10px 0;
 }
 .image-main img:hover{
     border:4px solid black;
     box-sizing: border-box;
     transform:scale(1.1,1.1);
     border-radius: 10px;
-}
-.image-main a{
-    display:block;
-    margin-top:20px;
-    font-weight: 500;
-    font-family: "Times New Roman";
-    font-size: 19px;
-    text-decoration: underline;
-    color:#607D8b;
 }
 .head-pad{
     margin: 20px 0;
