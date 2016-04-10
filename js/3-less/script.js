@@ -110,10 +110,22 @@
 //console.log(percentCalc(20000,3));
 
 function percentCalc(money,month){
-    var result_sum=monney;
-    if((money>0&&month>0)){
-
+    var result_sum=money;
+    if((money>0)&&(month>0)){
+        for(var i=1;i<=month;++i){
+            if (i < 4) {
+                result_sum *= 1.03;
+            } else if (i < 7) {
+                result_sum *= 1.06;
+            } else if (i < 10) {
+                result_sum *= 1.09;
+            } else {
+                result_sum *= 1.12;
+            }
+        }
     }else{
-
+        alert("Choose correct quantity of month or money!");
     }
+    return result_sum;
 }
+console.log(percentCalc(1000,8));
