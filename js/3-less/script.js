@@ -109,23 +109,55 @@
 //}
 //console.log(percentCalc(20000,3));
 
-function percentCalc(money,month){
-    var result_sum=money;
-    if((money>0)&&(month>0)){
-        for(var i=1;i<=month;++i){
-            if (i < 4) {
-                result_sum *= 1.03;
-            } else if (i < 7) {
-                result_sum *= 1.06;
-            } else if (i < 10) {
-                result_sum *= 1.09;
-            } else {
-                result_sum *= 1.12;
-            }
-        }
-    }else{
-        alert("Choose correct quantity of month or money!");
-    }
-    return result_sum;
-}
-console.log(percentCalc(1000,8));
+//function percentCalc(money,month){
+//
+//    if((money>0)&&(month>0)){
+//        var result_sum=money;
+//        for(var i=1;i<=month;++i){
+//            if (i < 4) {
+//                result_sum *= 1.03;
+//            } else if (i < 7) {
+//                result_sum *= 1.06;
+//            } else if (i < 10) {
+//                result_sum *= 1.09;
+//            } else {
+//                result_sum *= 1.12;
+//            }
+//        }
+//        return Math.round(result_sum);
+//    }else{
+//        return ("Choose correct quantity of month or money!");
+//    }
+//
+//}
+//console.log(percentCalc(-300,8));
+
+
+//function wordChanger(a1){
+//    var a=a1.length;
+//    var result='';
+//    for(var i=0;i<a;i++){
+//        if (a1[i]=="х"){
+//            if(((a1[i+1]=="е")||(a1[i+1]=="Е"))){
+//                if (((a1[i+2]=="р")||(a1[i+2]=="Р"))){
+//                    //if((a1[i-1]==" ")||(a1[i-1]=="!")||(a1[i-1]=="?")){
+//                        if((a1[i+3]==" ")||(a1[i+3]=="!")||(a1[i+3]=="?")){
+//                            result=result+'солнце';
+//                            i+=2;
+//                        }else{
+//                            result=result+a1[i];
+//                        }
+//                    }else{
+//                        result=result+a1[i];
+//                }
+//                }else{
+//                    result=result+a1[i];
+//            }
+//        }else{
+//            result=result+a1[i];
+//        }
+//    }
+//    return result;
+//}
+//var g="Put some text херсон without хероленд word хер лол";
+//alert((wordChanger(g)));
