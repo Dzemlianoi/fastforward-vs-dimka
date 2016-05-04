@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-position: inside;
+}
+.content{
+    width: 500px;
+    height: auto;
+    margin: 30px auto;
+}
+.header{
+    border-radius: 15px;
+    background:darkorange;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 2px 0;
+    cursor: pointer;
+}
+a[href$=".jpg"]{
+
+}
+[id$="-content"]{
+    min-height:100px;
+}
+#hide-show-all{
+    padding: 7px;
+    background: lightgreen;
+    position: fixed;
+    top:100px;
+    left:300px;
+    border-radius: 10px;
+    cursor: pointer;
+}

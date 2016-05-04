@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <title>JS</title>
+    <script src="script.js" async></script>
+    <link  rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+    <!--<button class="but1" onclick="actionTextarea()" disabled>Показать</button>-->
+    <!--<textarea cols="15" rows="15">Очень важная информацуия!!!</textarea>-->
+    <!--<button class="but2" onclick="actionTextarea()">Спрятать</button>-->
+    <div class="content">
+        <div id="info" class="header" onclick="showHideContent('info')">My Page</div>
+        <div id="info-content" class="shit">
+            Эта страничка принадлежит Юрию Газманову или Боярскому
+        </div>
+
+        <div id="friends" class="header" onclick="showHideContent('friends')">My Friends</div>
+        <div id="friends-content" class="shit">
+            <ul>
+                <li>Бабкина</li>
+                <li>Кадышева</li>
+                <li>Пьеха</li>
+                <li>Михайлов</li>
+                <li>Бутырка</li>
+            </ul>
+        </div>
+
+        <div id="photos" class="header" onclick="showHideContent('photos')">My Photos</div>
+        <div id="photos-content"  class="shit">
+            <img src="1.jpg" alt=""/>
+            <img src="1.jpg" alt=""/>
+            <img src="1.jpg" alt=""/>
+            <img src="1.jpg" alt=""/>
+            <img src="1.jpg" alt=""/>
+        </div>
+
+        <div id="music" class="header" onclick="showHideContent('music')">My Music</div>
+        <div id="music-content" class="shit">
+            <ul>
+                <li>Ramstein</li>
+                <li>DDT</li>
+                <li>AC/DC</li>
+                <li>LP</li>
+            </ul>
+        </div>
+
+        <div id="groups" class="header" onclick="showHideContent('groups')">My Groups</div>
+        <div id="groups-content" class="shit">
+            <ol>
+                <li>Любители Боярского</li>
+                <li>Любители Кадышевой</li>
+                <li>Любители писать target="_self"</li>
+                <li>Любители любителей</li>
+                <li>Любители машин</li>
+            </ol>
+        </div>
+
+        <div id="news" class="header" onclick="showHideContent('news')">My News</div>
+        <div id="news-content" class="shit">
+            <ul>
+                <li>Поел</li>
+                <li>Поспал</li>
+                <li>Поел</li>
+                <li>Опять поспал</li>
+                <li>Проснулся</li>
+                <li>ПОгулял</li>
+                <li>Покодил</li>
+                <li>Поговнокодил</li>
+                <li>ПОгулял</li>
+                <li>Опять опел</li>
+                <li>ПОпел</li>
+                <li>Поиграл</li>
+                <li>Покодил</li>
+                <li>Поспал</li>
+                <li>Умер</li>
+            </ul>
+        </div>
+    </div>
+    <div id="hide-show-all" onclick="showHideAll()">Показать все</div>
+</body>
+</html>
