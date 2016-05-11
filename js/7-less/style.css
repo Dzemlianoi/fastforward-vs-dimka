@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("665429.png");
+    background-size: 1366px 768px;
+}
+input{
+    outline: none;
+}
+.content{
+
+    margin: 100px auto;
+    width: 600px;
+    height: 400px;
+}
+.content div{
+    margin: 10px 0;
+}
+#shit{
+    padding-left: 100px;
+}
+.content div input{
+    height: 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+input[type='submit']{
+    margin: 0 auto;
+    display: block;
+    height: 30px;
+    width: 100px;
+    border: 1px solid skyblue;
+    border-radius: 7px;
+}
+label{
+    display: inline-block;
+    width: 125px;
+}
+p{
+    width: 300px;
+    text-align: center;
+    margin-top: 5px;
+}
